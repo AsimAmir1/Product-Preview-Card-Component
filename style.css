@@ -1,0 +1,107 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'mon';
+src:url(Montserrat-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'mon';
+src:url(Montserrat-Medium.ttf);
+font-style:normal;
+font-weight:500;
+}
+
+@font-face{
+font-family:'fraunces';
+src:url(Fraunces_144pt_Soft-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+.parent{
+padding:10px;
+background:hsl(30, 38%, 92%);
+}
+
+.parent img{
+width:100%;
+border-radius:10px 10px 0 0;
+}
+
+.content{
+background:hsl(0, 0%, 100%);
+border-radius:10px;
+}
+
+.text{padding:20px;}
+
+.text h1{
+padding:20px 0;
+font-family:fraunces;
+font-size:34px;
+}
+
+.text p{
+line-height:25px;
+font-size:16px;
+color:hsl(228, 12%, 48%);
+font-weight:500;
+font-family:mon;
+}
+
+.text span{
+letter-spacing:3px;
+text-transform:uppercase;
+font-family:mon;
+font-size:13px;
+color:hsl(228, 12%, 48%);
+font-weight:500;
+}
+
+.price{
+padding:20px 0;
+display:flex;
+align-items:center;
+font-family:fraunces;
+}
+
+.price .price-1{
+padding-right:20px;
+font-size:30px;
+color:hsl(158, 36%, 37%);
+font-family:fraunces;
+font-weight:700;
+}
+
+.price .price-2{
+color:hsl(228, 12%, 48%);
+text-decoration:line-through;
+font-family:mon;
+}
+
+.btn button{
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+text-align:center;
+background:hsl(158, 38%, 37%);
+border:0;
+padding:10px;
+border-radius:10px;
+color:#fff;
+font-family:mon;
+font-weight:700;
+}
+
+.btn button img{
+width:25px;
+padding-right:10px;
+}
